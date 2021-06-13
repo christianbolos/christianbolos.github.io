@@ -1,0 +1,7 @@
+.nav-tabs, .nav, .nav-item, .nav-link {
+    border: none !important;
+}
+
+#top-nav {
+    background-color: #282c34;
+}
