@@ -1,0 +1,43 @@
+import React, {Component} from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../css/Banner.css';
+import '../css/PseudoBootstrap.css';
+import {Row, Col, TabContainer, TabContent, TabPane, Nav} from "react-bootstrap";
+
+export default class Banner extends Component {
+    render() {
+        return (
+            <TabContainer defaultActiveKey="portfolio">
+                <div>
+                    <Row className="black-bg m-0">
+                        <Col md={9}>
+                            <h1 className="text-bold text-white text-start my-4">
+                                Christian Bolos
+                            </h1>
+                        </Col>
+                        <Col className="align-self-end" md={3}>
+                            <Nav fill variant="tabs" className="justify-content-center">
+                                <Nav.Item>
+                                    <Nav.Link eventKey="portfolio">Portfolio</Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item>
+                                    <Nav.Link eventKey="contact">Contact</Nav.Link>
+                                </Nav.Item>
+                            </Nav>
+                        </Col>
+                    </Row>
+                </div>
+                <div className="grey-bg flex-1">
+                    <TabContent>
+                        <TabPane eventKey="portfolio">
+                            s
+                        </TabPane>
+                        <TabPane eventKey="contact">
+                            d
+                        </TabPane>
+                    </TabContent>
+                </div>
+            </TabContainer>
+        );
+    }
+}

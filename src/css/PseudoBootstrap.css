@@ -1,0 +1,17 @@
+.text-bold {
+    font-weight: bolder;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.max-height {
+    min-height: 100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+.flex-1 {
+    flex:1;
+}
