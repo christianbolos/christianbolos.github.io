@@ -3,6 +3,19 @@
     border: none !important;
 }
 
+.nav-link {
+    color: white;
+}
+
+.nav-link.active {
+    background-color: #171717 !important;
+    color: #0d6efd !important;
+}
+
+.nav-item > a:hover {
+    color: #0d6efd;
+}
+
 .black-bg {
     background-color: #171717;
 }
@@ -34,6 +47,6 @@
     flex:1;
 }
 
-.ml-4 {
-    margin-left: 1.5rem;
+.ml-5 {
+    margin-left: 3rem;
 }

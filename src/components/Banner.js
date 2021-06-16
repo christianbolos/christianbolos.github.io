@@ -10,15 +10,15 @@ export default class Banner extends Component {
                 <div>
                     <Row className="black-bg m-0">
                         <Col md={9}>
-                            <h1 className="text-bold text-white text-start ml-4 mt-4 mb-0">
+                            <h1 className="text-bold text-white text-start ml-5 mt-5">
                                 Christian Bolos
                             </h1>
-                            <h2 className="text-start text-grey ml-4 mt-0 mb-4">
+                            <h2 className="text-start text-grey ml-5 mb-5">
                                 VFS Graduate - Characters/Environments/Concept Art
                             </h2>
                         </Col>
                         <Col className="align-self-end" md={3}>
-                            <Nav fill variant="tabs" className="justify-content-center">
+                            <Nav fill variant="tabs" className="justify-content-center mb-1">
                                 <Nav.Item>
                                     <Nav.Link eventKey="portfolio">Portfolio</Nav.Link>
                                 </Nav.Item>
