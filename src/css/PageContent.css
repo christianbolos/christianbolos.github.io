@@ -1,0 +1,11 @@
+.grey-bg {
+    background-color: #282c34;
+}
+
+.flex-1 {
+    flex:1;
+}
+
+.text-bold {
+    font-weight: bold;
+}

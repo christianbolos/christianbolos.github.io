@@ -20,10 +20,6 @@
     background-color: #171717;
 }
 
-.grey-bg {
-    background-color: #282c34;
-}
-
 .text-bold {
     font-weight: bolder;
 }
@@ -32,7 +28,7 @@
     color: #fff;
 }
 
-.text-grey {
+.h2 {
     color: #6c757d;
 }
 
@@ -41,10 +37,6 @@
     min-height: 100vh;
     display:flex;
     flex-direction:column;
-}
-
-.flex-1 {
-    flex:1;
 }
 
 .ml-5 {
