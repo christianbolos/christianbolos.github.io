@@ -3,6 +3,5 @@ Art portfolio website built on React and deployed to GitHub Pages. Developed by 
 
 # Specification so Far
 - [ ] Be able to view artwork - CB
-- [ ] Name and contact information featured on top of website - CB
+- [x] Name and contact information featured on top of website - CB
 - [ ] Image viewer which allows switching between images - KL
-- [ ] Setup hash router to allow for routing - KL
