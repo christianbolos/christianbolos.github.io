@@ -7,8 +7,8 @@
     color: white;
 }
 
-.nav-link.active {
-    background-color: #171717 !important;
+.gallery-nav.nav-link.active {
+    background-color: #282c34 !important;
     color: #0d6efd !important;
 }
 

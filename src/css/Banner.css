@@ -7,7 +7,7 @@
     color: white;
 }
 
-.nav-link.active {
+.top-nav.nav-link.active {
     background-color: #171717 !important;
     color: #0d6efd !important;
 }

@@ -8,16 +8,16 @@ export default class GalleryNav extends Component {
         return (
             <Nav variant="tabs" className="justify-content-center my-4">
                 <Nav.Item>
-                    <Nav.Link eventKey="showcase">Showcase</Nav.Link>
+                    <Nav.Link className="gallery-nav" eventKey="showcase">Showcase</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="characters">Characters</Nav.Link>
+                    <Nav.Link className="gallery-nav" eventKey="characters">Characters</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="environments">Environments</Nav.Link>
+                    <Nav.Link className="gallery-nav" eventKey="environments">Environments</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="concept-art">Concept Art</Nav.Link>
+                    <Nav.Link className="gallery-nav" eventKey="concept-art">Concept Art</Nav.Link>
                 </Nav.Item>
             </Nav>
         );

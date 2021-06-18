@@ -18,10 +18,10 @@ export default class Banner extends Component {
                 <Col className="align-self-end" md={3}>
                     <Nav fill variant="tabs" className="justify-content-center mb-1">
                         <Nav.Item>
-                            <Nav.Link eventKey="portfolio">Portfolio</Nav.Link>
+                            <Nav.Link className="top-nav" eventKey="portfolio">Portfolio</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="contact">Contact</Nav.Link>
+                            <Nav.Link className="top-nav" eventKey="contact">Contact</Nav.Link>
                         </Nav.Item>
                     </Nav>
                 </Col>
