@@ -1,0 +1,17 @@
+/* Removes the border on bootstrap tabs */
+.nav-tabs, .nav, .nav-item, .nav-link {
+    border: none !important;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link.active {
+    background-color: #171717 !important;
+    color: #0d6efd !important;
+}
+
+.nav-item > a:hover {
+    color: #0d6efd;
+}
