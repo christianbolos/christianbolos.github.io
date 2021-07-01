@@ -39,19 +39,24 @@
           protect: true,
           transitionDuration: 500,
           buttons: [
+            "zoom",
             "slideShow",
             "thumbs",
             "close"
           ],
           afterLoad: function(instance) {
-            instance.scaleToActual(0, 0, -1);
+            if (instance.isScaledDown()) {
+              instance.scaleToActual(0, 0, -1);
+            }
           },
           afterShow: function(instance) {
-            instance.scaleToActual(0, 0, -1);
+            if (instance.isScaledDown()) {
+              instance.scaleToActual(0, 0, -1);
+            }
           },
-          clickContent: function(current, event) {
-            return false;
-          }
+          // clickContent: function(current, event) {
+          //   return false;
+          // }
         });
       });
     </script>
