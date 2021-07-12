@@ -25,41 +25,6 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Christian Bolos</title>
-    <!--
-      Fancybox imports: added here due to advice from https://github.com/fancyapps/fancybox/issues/2427
-    -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-    <script type="text/JavaScript">
-      $(document).ready(function(){
-        $('[data-fancybox="gallery"]').fancybox({
-          animationEffect: false,
-          wheel: false,
-          protect: true,
-          transitionDuration: 500,
-          buttons: [
-            "zoom",
-            "slideShow",
-            "thumbs",
-            "close"
-          ],
-          afterLoad: function(instance) {
-            if (instance.isScaledDown()) {
-              instance.scaleToActual(0, 0, -1);
-            }
-          },
-          afterShow: function(instance) {
-            if (instance.isScaledDown()) {
-              instance.scaleToActual(0, 0, -1);
-            }
-          },
-          // clickContent: function(current, event) {
-          //   return false;
-          // }
-        });
-      });
-    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -76,3 +41,4 @@
     -->
   </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
