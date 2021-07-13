@@ -28,7 +28,7 @@ export default class GallerySetting {
             }
             return <a key={setting.path} data-fancybox={galleryName} href={setting.path} data-caption={setting.caption} fit={setting.fit}>
                 <div className="gallery-img">
-                    <img className="center-preview" src={setting.thumbnailPath} alt={setting.caption} style={style}/>
+                    <img className="center-preview" src={setting.thumbnailPath} alt={setting.title} style={style}/>
                     {titleDiv}
                 </div>
             </a>
