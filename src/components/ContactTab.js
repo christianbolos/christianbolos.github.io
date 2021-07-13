@@ -12,11 +12,11 @@ export default class ContactTab extends Component {
                 <ul className="my-3">
                     <li>
                         <span className="text-bold">Email: </span>
-                        <span className="font-italic">cbolosarts@gmail.com</span>
+                        <a className="font-italic" href="mailto:cbolosarts@gmail.com">cbolosarts@gmail.com</a>
                     </li>
                     <li>
                         <span className="text-bold">Twitter: </span>
-                        <span className="font-italic">@ChristianBolos</span>
+                        <a className="font-italic" href="https://twitter.com/ChristianBolos" rel="noopener noreferrer" target="_blank">@ChristianBolos</a>
                     </li>
                 </ul>
                 <div className="text-bold">

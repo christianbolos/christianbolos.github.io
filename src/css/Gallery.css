@@ -1,7 +1,6 @@
 .center-preview{
     width: 400px;
     height: 400px;
-    object-fit: none;
 }
 
 .fancybox-slide--image {
@@ -42,4 +41,9 @@
 
 .gallery-img:hover .caption-overlay {
     opacity: 1;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }

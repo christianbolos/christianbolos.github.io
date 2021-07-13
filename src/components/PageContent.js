@@ -12,7 +12,7 @@ export default class PageContent extends Component {
             <div className="grey-bg flex-1">
                 <TabContent>
                     <TabPane eventKey="portfolio">
-                        <TabContainer defaultActiveKey="showcase">
+                        <TabContainer defaultActiveKey="concept-art">
                             <GalleryNav/>
                             <Gallery/>
                         </TabContainer>
